@@ -30,6 +30,11 @@ view.initPromise.then(() => {
     $('.show-on-load').show();
     $('.barspinner').hide();
     window.dispatchEvent(new Event('resize'));
+    console.log('chamando aqui');
+    $('#save-xml').remove();
+    $('#end-note').remove();
+    $('#load-xml').remove();
+    $('#toolbox').append('<button>Carregar Strack bot!</button>');
     Elevio.init();
     GTM.init();
     trackJs.configure({

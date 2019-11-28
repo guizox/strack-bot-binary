@@ -251,7 +251,9 @@ class GoogleDrive {
             const savePickerCallback = data => {
                 if (data.action === google.picker.Action.PICKED) {
                     const folderId = data.docs[0].id;
-                    const strategyFile = new Blob([options.content], { type: options.mimeType });
+                    const strategyFile = new Blob([options.content], {
+                        type: options.mimeType,
+                    });
                     const strategyFileMetadata = JSON.stringify({
                         name    : options.name,
                         mimeType: options.mimeType,
