@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  sky-digital-front-end:
+    image: sky-digital-front-end
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 80:3000
+
