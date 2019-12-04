@@ -109,7 +109,6 @@
   "dependencies": {
     "@babel/register": "^7.7.4",
     "@binary-com/smartcharts": "^0.6.1",
-    "babel-register": "^6.26.0",
     "binary-style": "^0.2.4",
     "blockly": "github:google/blockly#59e5ac6",
     "commander": "^2.20.3",
