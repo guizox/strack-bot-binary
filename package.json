@@ -108,6 +108,8 @@
     "@binary-com/smartcharts": "^0.6.1",
     "binary-style": "^0.2.4",
     "blockly": "github:google/blockly#59e5ac6",
+    "@babel/register": "^7.7.4",
+    "gulp-watch": "^5.0.1",
     "commander": "^2.20.3",
     "concat-stream": "^2.0.0",
     "core-js": "^2.6.10",
