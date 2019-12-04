@@ -2,7 +2,7 @@
   "name": "binary-bot",
   "description": "Visual automation for binary.com",
   "engines": {
-    "node": "12.13.0"
+    "node": "10.16.0"
   },
   "bin": {
     "bot": "lib/index.js"
@@ -106,6 +106,7 @@
   },
   "dependencies": {
     "@binary-com/smartcharts": "^0.6.1",
+    "gulp": "^4.0.0",
     "binary-style": "^0.2.4",
     "blockly": "github:google/blockly#59e5ac6",
     "commander": "^2.20.0",
