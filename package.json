@@ -1,6 +1,9 @@
 {
   "name": "binary-bot",
   "description": "Visual automation for binary.com",
+  "engines": {
+    "node": "12.13.0"
+  },
   "bin": {
     "bot": "lib/index.js"
   },
