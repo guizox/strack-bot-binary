@@ -109,6 +109,7 @@
     "concat-stream": "^2.0.0",
     "core-js": "^2.6.5",
     "gh-pages": "^2.0.1",
+    "graceful-fs": "^4.2.3",
     "mobx": "^5.9.4",
     "mobx-react": "^5.4.4",
     "n": "^6.1.3",
