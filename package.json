@@ -111,6 +111,7 @@
     "gh-pages": "^2.0.1",
     "mobx": "^5.9.4",
     "mobx-react": "^5.4.4",
+    "n": "^6.1.3",
     "react-render-html": "^0.6.0",
     "react-transition-group": "^4.0.1",
     "sequelize-cli": "^5.5.1"
