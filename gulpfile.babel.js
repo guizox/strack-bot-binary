@@ -37,7 +37,7 @@ gulp.task(
 gulp.task(
     'serve',
     gulp.series('open', 'connect', done => {
-        watch(['www/*.html']).pipe(connect.reload());
+        // watch(['www/*.html']).pipe(connect.reload());
         done();
     })
 );
