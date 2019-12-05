@@ -12,7 +12,7 @@ gulp.task(
     gulp.series(done => {
         connect.server({
             root      : 'www',
-            port      : 8080,
+            port      : 3000,
             livereload: false,
         });
         done();
@@ -81,7 +81,7 @@ gulp.task(
 gulp.task(
     'watch-html',
     gulp.series(done => {
-        console.log('------- watch html --------');
+        console.log('------- watch html ----xxx----');
         gulp.watch(
             ['templates/**/*'],
             {
