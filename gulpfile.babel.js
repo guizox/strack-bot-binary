@@ -16,7 +16,9 @@ gulp.task(
             port      : 8080,
             livereload: false,
         });
+        console.log('antes do done');
         done();
+        console.log('depois do done');
     })
 );
 
