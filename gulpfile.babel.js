@@ -10,6 +10,7 @@ require('./gulp/plato');
 gulp.task(
     'connect',
     gulp.series(done => {
+        console.log('starta');
         connect.server({
             root      : 'www',
             port      : 8080,
@@ -94,6 +95,7 @@ gulp.task(
 gulp.task(
     'watch-html',
     gulp.series(done => {
+        console.log('------- watch html --------');
         gulp.watch(
             ['templates/**/*'],
             {
@@ -105,6 +107,6 @@ gulp.task(
     })
 );
 
-gulp.task('watch', gulp.series('build', 'serve', 'watch-static', 'watch-html'));
+gulp.task('watch', gulp.series('build', 'serve'));
 
 gulp.task('default', gulp.series('watch'));
