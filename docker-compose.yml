@@ -1,11 +1,13 @@
-version: '3'
+version: "3"
 
 services:
-  sky-digital-front-end:
-    image: sky-digital-front-end
+  strack-bot:
+    image: strack-bot
     build: .
+    volumes:
+      - .:/app
+      - /app/node_modules/
     environment:
       NODE_ENV: production
     ports:
       - 80:3000
-

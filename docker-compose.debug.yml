@@ -1,8 +1,8 @@
-version: '2.1'
+version: "2.1"
 
 services:
-  sky-digital-front-end:
-    image: sky-digital-front-end
+  strack-bot:
+    image: strack-bot
     build: .
     environment:
       NODE_ENV: development
