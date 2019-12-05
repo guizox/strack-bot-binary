@@ -13,7 +13,7 @@ gulp.task(
         connect.server({
             root      : 'www',
             port      : 8080,
-            livereload: true,
+            livereload: false,
         });
         done();
     })
