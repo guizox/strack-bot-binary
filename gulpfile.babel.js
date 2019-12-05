@@ -10,34 +10,18 @@ require("./gulp/plato");
 gulp.task(
   "connect",
   gulp.series(done => {
-    console.log("starta");
     connect.server({
       root: "www",
-      port: 8080,
+      port: 80,
       livereload: false
     });
-    console.log("antes do done");
-    done();
-    console.log("depois do done");
-  })
-);
-
-gulp.task(
-  "open",
-  gulp.series(done => {
-    /*gulp.src('www/index.html').pipe(
-            open({
-                uri: 'http://localhost:8080/',
-            })
-        );*/
     done();
   })
 );
 
 gulp.task(
   "serve",
-  gulp.series("open", "connect", done => {
-    // watch(['www/*.html']).pipe(connect.reload());
+  gulp.series("connect", done => {
     done();
   })
 );
