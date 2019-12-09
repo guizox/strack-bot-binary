@@ -677,7 +677,7 @@
       </block>
     </statement>
   </block>
-  <block type="after_purchase" id="D^Jz1^n=2vtZku1vBN@;" x="0" y="1169">
+  <block type="after_purchase" id="D^Jz1^n=2vtZku1vBN@;" x="0" y="19060">
     <statement name="AFTERPURCHASE_STACK">
       <block type="controls_if" id="=KbO,-HqtVsGwXTFQu;A">
         <value name="IF0">

@@ -49,13 +49,15 @@ bot bot-example.js
 ```
 
 ### Running with a specific endpoint
+
 **Use only if you know what you're doing**
 
 ```
-ENDPOINT='wss://ws.binaryws.com/websockets/v3?l=en&app_id=1169' bot bot-example.js
+ENDPOINT='wss://ws.binaryws.com/websockets/v3?l=en&app_id=19060' bot bot-example.js
 ```
 
 ### CLI examples:
+
 [`speed-test.js`](https://github.com/binary-com/binary-bot/blob/master/cli-examples/speed-test.js)
 
 ## Think you found a bug?
@@ -73,5 +75,3 @@ Please send us your inquiries through marketing@binary.com
 You can find some example blocks in the [`Examples`](/examples) folder.
 
 **Disclaimer**: _All the files and codes in the above links are intended for educational and informational purposes only. They should not be construed as giving investment advice, and you should not rely on them as your singular factor in making or refraining from making any investment decisions. Binary.com accepts no liability whatsoever for any losses incurred by users in their trading. Binary options trading may incur losses as well as gains._
-
-
