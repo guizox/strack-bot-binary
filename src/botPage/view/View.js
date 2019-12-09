@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'jquery-ui/ui/widgets/dialog';
 import _Blockly, { load } from './blockly';
-import Chart from './Dialogs/Chart';
+// import Chart from './Dialogs/Chart';
 import Limits from './Dialogs/Limits';
 import IntegrationsDialog from './Dialogs/IntegrationsDialog';
 import LoadDialog from './Dialogs/LoadDialog';
@@ -89,7 +89,7 @@ const addBalanceForToken = token => {
     });
 };
 
-const chart = new Chart(api);
+// const chart = new Chart(api);
 
 const tradingView = new TradingView();
 
@@ -420,9 +420,9 @@ export default class View {
             this.blockly.cleanUp();
         });
 
-        $('#chartButton').click(() => {
+        /* $('#chartButton').click(() => {
             chart.open();
-        });
+        }); */
 
         $('#tradingViewButton').click(() => {
             tradingView.open();
