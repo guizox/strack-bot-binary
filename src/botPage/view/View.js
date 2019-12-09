@@ -728,14 +728,7 @@ function initRealityCheck(stopCallback) {
 function renderReactComponents() {
     ReactDOM.render(<ServerTime api={api} />, $('#server-time')[0]);
     ReactDOM.render(<Tour />, $('#tour')[0]);
-    ReactDOM.render(
-        <OfficialVersionWarning
-            show={
-                !(typeof window.location !== 'undefined' && isProduction() && window.location.pathname === '/bot.html')
-            }
-        />,
-        $('#footer')[0]
-    );
+    ReactDOM.render(<OfficialVersionWarning show={false} />, $('#footer')[0]);
     ReactDOM.render(<TradeInfoPanel api={api} />, $('#summaryPanel')[0]);
     ReactDOM.render(<LogTable />, $('#logTable')[0]);
 }

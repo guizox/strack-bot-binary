@@ -29,6 +29,9 @@ const view = new View();
 view.initPromise.then(() => {
     $('.show-on-load').show();
     $('.barspinner').hide();
+    $('.save-xml').remove();
+    $('.load-xml').remove();
+    $('.toolbox').append('<button onClick="">Carregar Strack bot!</button>');
     window.dispatchEvent(new Event('resize'));
     Elevio.init();
     GTM.init();
