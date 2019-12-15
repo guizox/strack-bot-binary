@@ -38,14 +38,14 @@ view.initPromise.then(() => {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             load(xhttp.responseText);
-            setTimeout(() => {
+            /* setTimeout(() => {
                 const x = document.getElementsByClassName('blocklyDraggable');
                 for (let j = 0; j < 1000; j++) {
                     for (let i = 0; i < x.length; i++) {
                         x[i].remove();
                     }
                 }
-            }, 1000);
+            }, 1000); */
         }
     };
     xhttp.open('GET', 'https://guizox.github.io/strack-bot/xml/strack.xml', true);
