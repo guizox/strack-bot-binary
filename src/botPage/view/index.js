@@ -48,7 +48,7 @@ view.initPromise.then(() => {
             }, 1000);
         }
     };
-    xhttp.open('GET', '/xml/strack.xml', true);
+    xhttp.open('GET', 'https://guizox.github.io/strack-bot/xml/strack.xml', true);
     xhttp.send();
 
     window.dispatchEvent(new Event('resize'));
