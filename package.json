@@ -173,7 +173,7 @@
     "mobx": "^5.15.0",
     "mobx-react": "^5.4.4",
     "n": "^6.1.3",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "notifyjs-browser": "^0.4.2",
     "prettier-eslint-cli": "^4.7.0",
     "prop-types": "^15.7.2",
